@@ -1,0 +1,20 @@
+﻿<Window x:Class="Part1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Part1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Name="mainCanvas" Height="421" Margin="0,0,0,-0.333" VerticalAlignment="Top" Width="793">
+            <Button Content="Calculate BMI" Canvas.Left="355" Canvas.Top="171" Width="98" Height="24" Click="Button_Click"/>
+            <Label Content="Enter your weight in pounds" Canvas.Left="154" Canvas.Top="71" Width="174" Height="33"/>
+            <TextBox Height="81" Name="BMIOutput" Canvas.Left="250" TextWrapping="Wrap" Canvas.Top="218" Width="292"/>
+            <TextBox HorizontalAlignment="Left" x:Name="enterHeight" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Canvas.Left="333" Canvas.Top="107"/>
+            <TextBox HorizontalAlignment="Left" x:Name="enterWeight" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Canvas.Left="333" Canvas.Top="71"/>
+            <Label Content="Enter your height in inches" Canvas.Left="154" Canvas.Top="107" Width="174" Height="33"/>
+        </Canvas>
+
+    </Grid>
+</Window>
